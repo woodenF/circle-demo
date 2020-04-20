@@ -13,7 +13,7 @@ jobs:
       - checkout
       - run:
         name: Install
-        command: npm install
+        command: yarn install
       - run:
         name: Build
-        command: npm run build
+        command: yarn build
