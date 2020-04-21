@@ -1,4 +1,4 @@
 module.exports = {
-  publicPath: ProcessingInstruction.env.NODE_ENV ===
+  publicPath: process.env.NODE_ENV ===
   'production' ? '/circle-demo' : '/'
 }
